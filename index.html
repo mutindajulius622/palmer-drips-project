@@ -3,152 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PALMER DRIPS</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>PALMER DRIPS - Premium Sneakers & Clothing</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <a href="#" class="logo">Style<span>Hub</span></a>
-                
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Clothing</a></li>
-                        <li><a href="#">Sneakers</a></li>
-                        <li><a href="#">JB Jason Collection</a></li>
-                        <li><a href="#">Sale</a></li>
-                    </ul>
-                </nav>
-                
-                <div class="header-actions">
-                    <a href="#"><i class="fas fa-search"></i></a>
-                    <a href="#"><i class="fas fa-user"></i></a>
-                    <a href="#" id="cart-icon">
-                        <i class="fas fa-shopping-cart"></i>
-                        <span class="cart-count">0</span>
-                    </a>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Palmer Drips</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#sneakers" class="nav-link">Sneakers</a>
+                <a href="#clothing" class="nav-link">Clothing</a>
+                <a href="#new-arrivals" class="nav-link">New Arrivals</a>
+                <a href="#sale" class="nav-link sale">Sale</a>
+            </div>
+            <div class="nav-actions">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="wishlist-btn">
+                    <i class="far fa-heart"></i>
+                    <span class="wishlist-count">0</span>
+                </button>
+                <button class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
         </div>
-    </header>
+    </nav>
 
-    <!-- Shopping Cart -->
-    <div class="cart-modal" id="cart-modal">
-        <div class="cart-header">
-            <h3>Your Cart</h3>
-            <button class="close-cart" id="close-cart">&times;</button>
+    <!-- Search Overlay -->
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" placeholder="Search for sneakers, clothing, brands..." class="search-input">
+            <button class="search-close">
+                <i class="fas fa-times"></i>
+            </button>
         </div>
-        <div class="cart-items" id="cart-items">
-            <p class="empty-cart-message">Your cart is empty</p>
-        </div>
-        <div class="cart-total" id="cart-total">
-            Total: $0.00
-        </div>
-        <button class="checkout-btn">Proceed to Checkout</button>
     </div>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Elevate Your Style</h1>
-            <p>Discover the latest trends in clothing and sneakers for every occasion</p>
-            <a href="#" class="btn">Shop Now</a>
+            <h1 class="hero-title">Elevate Your Style Game</h1>
+            <p class="hero-subtitle">Discover the latest trends in premium sneakers and streetwear</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="app.scrollToSection('#new-arrivals')">Shop Now</button>
+                <button class="btn btn-secondary" onclick="app.scrollToSection('#new-arrivals')">New Arrivals</button>
+            </div>
         </div>
-    </section>
-
-    <!-- JB Jason Special Section -->
-    <section class="jb-jason-section">
-        <div class="container">
-            <h2>JB Jason Exclusive Collection</h2>
-            <p>Limited edition streetwear and sneakers designed by JB Jason himself. Get these exclusive items before they're gone!</p>
-            <a href="#" class="jb-btn">Shop the Collection</a>
+        <div class="hero-image">
+            <img src="dip hard.jpeg" alt="Premium Sneakers" />
         </div>
     </section>
 
     <!-- Categories Section -->
-    <section class="container">
-        <h2 class="section-title">Shop By Category</h2>
-        <div class="categories" id="categories-container">
-            <!-- Categories will be loaded dynamically -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Shop By Category</h2>
+            <div class="categories-grid">
+                <div class="category-card" onclick="app.filterByCategory('sneakers')">
+                    <img src="AF1 Stussy.jpg" alt="Sneakers">
+                        <h3>Sneakers</h3>
+                        <p>Latest drops from top brands</p>
+                        <button class="btn btn-outline">Explore</button>
+                    </div>
+                </div>
+                <div class="category-card" onclick="app.filterByCategory('clothing')">
+                    <img src="sex record tee.jpeg" alt="Clothing">
+                    <div class="category-content">
+                        <h3>Clothing</h3>
+                        <p>Streetwear & premium apparel</p>
+                        <button class="btn btn-outline">Explore</button>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="assesorize.jpeg" alt="Accessories">
+                    <div class="category-content">
+                        <h3>Accessories</h3>
+                        <p>Complete your look</p>
+                        <button class="btn btn-outline">Explore</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Featured Products -->
-    <section class="container">
-        <h2 class="section-title">Featured Products</h2>
-        <div class="products" id="products-container">
-            <!-- Products will be loaded dynamically -->
+    <section id="new-arrivals" class="featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">New Arrivals</h2>
+                <a href="#all-products" class="view-all">View All</a>
+            </div>
+            <div class="products-grid" id="featured-products">
+                <div class="loading">Loading products...</div>
+            </div>
         </div>
     </section>
 
-    <!-- Newsletter -->
-    <section class="newsletter">
+    <!-- Sneakers Section -->
+    <section id="sneakers" class="products-section">
         <div class="container">
-            <h2>Subscribe to Our Newsletter</h2>
-            <p>Stay updated with the latest trends and exclusive offers</p>
-            <form class="newsletter-form" id="newsletter-form">
-                <input type="email" placeholder="Enter your email address" required>
-                <button type="submit">Subscribe</button>
-            </form>
+            <h2 class="section-title">Premium Sneakers</h2>
+            <div class="products-grid" id="sneakers-products">
+                <div class="loading">Loading sneakers...</div>
+            </div>
         </div>
     </section>
+
+    <!-- Clothing Section -->
+    <section id="clothing" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Streetwear Clothing</h2>
+            <div class="products-grid" id="clothing-products">
+                <div class="loading">Loading clothing...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart -->
+    <div class="cart-overlay">
+        <div class="cart-sidebar">
+            <div class="cart-header">
+                <h3>Your Shopping Bag</h3>
+                <button class="cart-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="cart-items" id="cart-items">
+                <div class="loading">Your cart is empty</div>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span id="cart-total-price">$0.00</span>
+                </div>
+                <button class="btn btn-primary checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-column">
-                    <h3>Shop</h3>
+                <div class="footer-section">
+                    <h4>Palmer Drips</h4>
+                    <p>Your destination for premium sneakers and streetwear. Elevate your style with our curated collection.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Shop</h4>
                     <ul>
-                        <li><a href="#">Men's Clothing</a></li>
-                        <li><a href="#">Women's Clothing</a></li>
-                        <li><a href="#">Sneakers</a></li>
-                        <li><a href="#">JB Jason Collection</a></li>
-                        <li><a href="#">Sale</a></li>
+                        <li><a href="#sneakers">Sneakers</a></li>
+                        <li><a href="#clothing">Clothing</a></li>
+                        <li><a href="#new-arrivals">New Arrivals</a></li>
+                        <li><a href="#sale">Sale</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-column">
-                    <h3>Company</h3>
+                <div class="footer-section">
+                    <h4>Support</h4>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#shipping">Shipping Info</a></li>
+                        <li><a href="#returns">Returns</a></li>
+                        <li><a href="#faq">FAQ</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-column">
-                    <h3>Support</h3>
-                    <ul>
-                        <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Shipping & Returns</a></li>
-                        <li><a href="#">Size Guide</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-column">
-                    <h3>Connect With Us</h3>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-pinterest"></i></a>
-                    </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for exclusive drops and offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
                 </div>
             </div>
-            
-            <div class="copyright">
-                <p>&copy; 2023 StyleHub. All rights reserved.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Palmer Drips. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="js/app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

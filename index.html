@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PALMER DRIPS - Premium Sneakers & Clothing</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Palmer Drips - Premium sneakers and streetwear in Nairobi. Shop the latest Jordan, Nike, and exclusive footwear collections.">
+    <meta name="keywords" content="sneakers, jordan, nike, streetwear, nairobi, kenya, shoes, premium footwear">
+    <meta name="author" content="Palmer Drips">
+    
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ff6b35">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Palmer Drips">
+    
+    <!-- Combined CSS -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -13,28 +27,28 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="#home">Palmer Drips</a>
+                <a href="#home" class="nav-link" data-section="home">Palmer Drips</a>
             </div>
             <div class="nav-menu">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#sneakers" class="nav-link">Sneakers</a>
-                <a href="#clothing" class="nav-link">Clothing</a>
-                <a href="#new-arrivals" class="nav-link">New Arrivals</a>
-                <a href="#sale" class="nav-link sale">Sale</a>
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#sneakers" class="nav-link" data-section="sneakers">Sneakers</a>
+                <a href="#clothing" class="nav-link" data-section="clothing">Clothing</a>
+                <a href="#new-arrivals" class="nav-link" data-section="new-arrivals">New Arrivals</a>
+                <a href="#sale" class="nav-link sale" data-section="sale">Sale</a>
             </div>
             <div class="nav-actions">
-                <button class="search-btn">
+                <button class="search-btn" type="button">
                     <i class="fas fa-search"></i>
                 </button>
-                <button class="wishlist-btn">
+                <button class="wishlist-btn" type="button">
                     <i class="far fa-heart"></i>
                     <span class="wishlist-count">0</span>
                 </button>
-                <button class="cart-btn">
+                <button class="cart-btn" type="button">
                     <i class="fas fa-shopping-bag"></i>
                     <span class="cart-count">0</span>
                 </button>
-                <button class="menu-toggle">
+                <button class="menu-toggle" type="button">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
@@ -45,7 +59,7 @@
     <div class="search-overlay">
         <div class="search-container">
             <input type="text" placeholder="Search for sneakers, clothing, brands..." class="search-input">
-            <button class="search-close">
+            <button class="search-close" type="button">
                 <i class="fas fa-times"></i>
             </button>
         </div>
@@ -57,12 +71,12 @@
             <h1 class="hero-title">Elevate Your Style Game</h1>
             <p class="hero-subtitle">Discover the latest trends in premium sneakers and streetwear</p>
             <div class="hero-buttons">
-                <button class="btn btn-primary" onclick="app.scrollToSection('#new-arrivals')">Shop Now</button>
-                <button class="btn btn-secondary" onclick="app.scrollToSection('#new-arrivals')">New Arrivals</button>
+                <button class="btn btn-primary" type="button" data-target="new-arrivals">Shop Now</button>
+                <button class="btn btn-secondary" type="button" data-target="new-arrivals">New Arrivals</button>
             </div>
         </div>
         <div class="hero-image">
-            <img src="dip hard.jpeg" alt="Premium Sneakers" />
+            <img src="dip hard.jpeg" alt="Premium Sneakers">
         </div>
     </section>
 
@@ -71,27 +85,28 @@
         <div class="container">
             <h2 class="section-title">Shop By Category</h2>
             <div class="categories-grid">
-                <div class="category-card" onclick="app.filterByCategory('sneakers')">
-                    <img src="AF1 Stussy.jpg" alt="Sneakers">
+                <div class="category-card" data-category="sneakers">
+                    <img src="J3 Retro.jpg" alt="Sneakers">
+                    <div class="category-content">
                         <h3>Sneakers</h3>
                         <p>Latest drops from top brands</p>
-                        <button class="btn btn-outline">Explore</button>
+                        <button class="btn btn-outline" type="button">Explore</button>
                     </div>
                 </div>
-                <div class="category-card" onclick="app.filterByCategory('clothing')">
+                <div class="category-card" data-category="clothing">
                     <img src="sex record tee.jpeg" alt="Clothing">
                     <div class="category-content">
                         <h3>Clothing</h3>
                         <p>Streetwear & premium apparel</p>
-                        <button class="btn btn-outline">Explore</button>
+                        <button class="btn btn-outline" type="button">Explore</button>
                     </div>
                 </div>
-                <div class="category-card">
+                <div class="category-card" data-category="accessories">
                     <img src="assesorize.jpeg" alt="Accessories">
                     <div class="category-content">
                         <h3>Accessories</h3>
                         <p>Complete your look</p>
-                        <button class="btn btn-outline">Explore</button>
+                        <button class="btn btn-outline" type="button">Explore</button>
                     </div>
                 </div>
             </div>
@@ -136,22 +151,44 @@
         <div class="cart-sidebar">
             <div class="cart-header">
                 <h3>Your Shopping Bag</h3>
-                <button class="cart-close">
+                <button class="cart-close" type="button">
                     <i class="fas fa-times"></i>
                 </button>
             </div>
             <div class="cart-items" id="cart-items">
-                <div class="loading">Your cart is empty</div>
+                <div class="empty-cart">Your cart is empty</div>
             </div>
             <div class="cart-footer">
                 <div class="cart-total">
                     <span>Total:</span>
-                    <span id="cart-total-price">$0.00</span>
+                    <span id="cart-total-price">Ksh 0</span>
                 </div>
-                <button class="btn btn-primary checkout-btn">Proceed to Checkout</button>
+                <button class="btn btn-primary checkout-btn" type="button">Proceed to Checkout</button>
             </div>
         </div>
     </div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-overlay">
+        <div class="checkout-modal">
+            <div class="checkout-header">
+                <h3>Complete Your Order</h3>
+                <button class="checkout-close" type="button">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="checkout-content">
+                <form id="checkout-form">
+                    <!-- Checkout form loaded by JavaScript -->
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Access Button -->
+    <button class="admin-access-btn" type="button">
+        <i class="fas fa-cog"></i>
+    </button>
 
     <!-- Footer -->
     <footer class="footer">
@@ -160,23 +197,28 @@
                 <div class="footer-section">
                     <h4>Palmer Drips</h4>
                     <p>Your destination for premium sneakers and streetwear. Elevate your style with our curated collection.</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Ronald Ngala Street, Royal Palms Mall, Shop BM39</p>
+                        <p><i class="fas fa-phone"></i> +254 757 809 378</p>
+                        <p><i class="fas fa-envelope"></i> palmerdrips@gmail.com</p>
+                    </div>
                 </div>
                 <div class="footer-section">
                     <h4>Shop</h4>
                     <ul>
-                        <li><a href="#sneakers">Sneakers</a></li>
-                        <li><a href="#clothing">Clothing</a></li>
-                        <li><a href="#new-arrivals">New Arrivals</a></li>
-                        <li><a href="#sale">Sale</a></li>
+                        <li><a href="#sneakers" class="footer-link">Sneakers</a></li>
+                        <li><a href="#clothing" class="footer-link">Clothing</a></li>
+                        <li><a href="#new-arrivals" class="footer-link">New Arrivals</a></li>
+                        <li><a href="#sale" class="footer-link">Sale</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Support</h4>
                     <ul>
-                        <li><a href="#contact">Contact Us</a></li>
-                        <li><a href="#shipping">Shipping Info</a></li>
-                        <li><a href="#returns">Returns</a></li>
-                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact" class="footer-link">Contact Us</a></li>
+                        <li><a href="#shipping" class="footer-link">Shipping Info</a></li>
+                        <li><a href="#returns" class="footer-link">Returns</a></li>
+                        <li><a href="#faq" class="footer-link">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -194,6 +236,22 @@
         </div>
     </footer>
 
+    <!-- Combined JavaScript -->
     <script src="script.js"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/sw.js')
+                .then(function(registration) {
+                    console.log('ServiceWorker registration successful');
+                })
+                .catch(function(err) {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+        });
+    }
+    </script>
 </body>
 </html>

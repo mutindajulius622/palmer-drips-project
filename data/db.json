@@ -7,11 +7,11 @@
       "price": 2500,
       "category": "sneakers",
       "images": ["Air force white.jpg"],
-      "sizes": ["EUR 36", "EUR 37", "EUR 38", "EUR 39","EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
-      "colors": [ "White"],
+      "sizes": ["EUR 36", "EUR 37", "EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
+      "colors": ["White"],
       "inStock": true,
       "featured": true,
-      "description": "Airforce 1 is made of high quality leather and natural  rubber .The shoes have a spongy lining  and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions . Their sole is well designedto give the shoes both a classic look and also ensure maximum grip even on slipperly surfaces. The shoes are easy to clean as they are made of smooth non dirt leather."
+      "description": "Airforce 1 is made of high quality leather and natural rubber. The shoes have a spongy lining and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions. Their sole is well designed to give the shoes both a classic look and also ensure maximum grip even on slippery surfaces. The shoes are easy to clean as they are made of smooth non-dirt leather."
     },
     {
       "id": 2,
@@ -20,7 +20,7 @@
       "price": 3799,
       "category": "sneakers",
       "images": ["red sb dunks.jpg"],
-      "sizes": ["EUR 36", "EUR 37", "EUR 38", "EUR 39","EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 36", "EUR 37", "EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Red"],
       "inStock": true,
       "featured": true,
@@ -33,8 +33,8 @@
       "price": 3999,
       "category": "sneakers",
       "images": ["Sb Dunk  dark mocha.jpg"],
-      "sizes": ["EUR 38","EUR 39","EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
-      "colors": ["Black","Brown"],
+      "sizes": ["EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
+      "colors": ["Black", "Brown"],
       "inStock": true,
       "featured": true,
       "description": "The shoes display a prominent Nike swoosh emblem on the sides, with blue detailing on the laces, tongue, and outsole. The upper part combines light blue overlays on a white base, creating a fresh, vibrant appearance. They are placed on a dark surface, possibly in a retail setting, with shoe boxes and additional packing materials visible in the background."
@@ -46,20 +46,20 @@
       "price": 3799,
       "category": "sneakers",
       "images": ["J3 Cool Grey.jpg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
-      "colors": ["Grey","White"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
+      "colors": ["Grey", "White"],
       "inStock": true,
       "featured": true,
-      "description": "The Air Jordan 3 Retro SE, a beloved classic, combines style and performance. Its design pays homage to the original Air Jordan 3, known for its iconic elephant print overlays and visible Air cushioning. With a mix of premium materials like leather and suede, the Retro SE offers durability and luxury. The mid-top silhouette provides ankle support while allowing for freedom of movement. Whether you're hitting the court or the streets, the Air Jordan 3 Retro SE promises comfort, style, and a nod to basketball heritage"
+      "description": "The Air Jordan 3 Retro SE, a beloved classic, combines style and performance. Its design pays homage to the original Air Jordan 3, known for its iconic elephant print overlays and visible Air cushioning. With a mix of premium materials like leather and suede, the Retro SE offers durability and luxury. The mid-top silhouette provides ankle support while allowing for freedom of movement. Whether you're hitting the court or the streets, the Air Jordan 3 Retro SE promises comfort, style, and a nod to basketball heritage."
     },
     {
       "id": 5,
       "name": "Brown Timber Land",
       "brand": "Timber Land",
       "price": 5499,
-      "category": "Boots",
+      "category": "boots",
       "images": ["Brown timber land.jpg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Brown"],
       "inStock": true,
       "featured": true,
@@ -72,11 +72,11 @@
       "price": 3999,
       "category": "sneakers",
       "images": ["J4 Black Cut.jpg"],
-      "sizes": ["EUR 36","EUR 37","EUR 38","EUR 39","EUR 40", "EUR 41","EUR 42", "EUR 43", "EUR 44","45"],
+      "sizes": ["EUR 36", "EUR 37", "EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Black"],
       "inStock": true,
       "featured": true,
-      "description": "- high quality ,Perfect for all seasons ,They are very stylish, Comfortable and durable "
+      "description": "High quality, perfect for all seasons. They are very stylish, comfortable and durable."
     },
     {
       "id": 7,
@@ -85,11 +85,11 @@
       "price": 4599,
       "category": "sneakers",
       "images": ["AF1 LUXE.jpg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Green"],
       "inStock": true,
       "featured": true,
-      "description": "Made of high quality upper leather and rubber sole ,Perfect for all seasons,They are very stylish, Comfortable and durable "
+      "description": "Made of high quality upper leather and rubber sole. Perfect for all seasons. They are very stylish, comfortable and durable."
     },
     {
       "id": 8,
@@ -98,11 +98,11 @@
       "price": 3999,
       "category": "sneakers",
       "images": ["J4 Green White.jpg"],
-      "sizes": ["EUR 38","EUR 39","EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Green", "White"],
       "inStock": true,
       "featured": true,
-      "description": "Made of high quality upper leather and rubber sole ,Perfect for all seasons,They are very stylish, Comfortable and durable"
+      "description": "Made of high quality upper leather and rubber sole. Perfect for all seasons. They are very stylish, comfortable and durable."
     },
     {
       "id": 9,
@@ -115,7 +115,7 @@
       "colors": ["Black", "Grey"],
       "inStock": true,
       "featured": true,
-      "description": "The Air Jordan 4 GREY/BLACK  is a colorway of the iconic Air Jordan 4 silhouette. It features a GREY leather upper with tonal nubuck and mesh accents. The shoe also features a military black color on the eyelets, heel tab and outsole. The iconic plastic netting on the sides and the Air cushioning in the sole provide both style and comfort. The Jumpman logo is featured on the tongue and heel."
+      "description": "The Air Jordan 4 GREY/BLACK is a colorway of the iconic Air Jordan 4 silhouette. It features a GREY leather upper with tonal nubuck and mesh accents. The shoe also features a military black color on the eyelets, heel tab and outsole. The iconic plastic netting on the sides and the Air cushioning in the sole provide both style and comfort. The Jumpman logo is featured on the tongue and heel."
     },
     {
       "id": 10,
@@ -124,8 +124,8 @@
       "price": 4199,
       "category": "sneakers",
       "images": ["J3 Retro.jpg"],
-      "sizes": ["EUR 37","EUR 38","EUR 39","EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
-      "colors": ["Grey","White"],
+      "sizes": ["EUR 37", "EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
+      "colors": ["Grey", "White"],
       "inStock": true,
       "featured": true,
       "description": "The Air Jordan 3 Retro SE White Dark Brown Green is the perfect shoe for any sneakerhead. This classic silhouette features a white leather upper with dark brown and green accents for a timeless look. The classic design features a visible Air unit in the heel for cushioning and a durable rubber outsole for traction. The perforated detailing on the toe box provides breathability, while the padded tongue and collar provide comfort and support. With a timeless design and iconic style, the Air Jordan 3 Retro SE White Dark Brown Green is a must-have for any sneakerhead."
@@ -137,7 +137,7 @@
       "price": 3999,
       "category": "sneakers",
       "images": ["J3 White Black.jpg"],
-      "sizes": ["EUR 38","EUR 39","EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Black", "White"],
       "inStock": true,
       "featured": true,
@@ -150,11 +150,11 @@
       "price": 2500,
       "category": "sneakers",
       "images": ["Air Force Black.jpg"],
-      "sizes": ["EUR 36","EUR 37","EUR 38","EUR 39","EUR 40","EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 36", "EUR 37", "EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Black"],
       "inStock": true,
       "featured": true,
-      "description": "Airforce 1 is made of high quality leather and natural  rubber .The shoes have a spongy lining  and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions . Their sole is well designedto give the shoes both a classic look and also ensure maximum grip even on slipperly surfaces. The shoes are easy to clean as they are made of smooth non dirt leather."
+      "description": "Airforce 1 is made of high quality leather and natural rubber. The shoes have a spongy lining and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions. Their sole is well designed to give the shoes both a classic look and also ensure maximum grip even on slippery surfaces. The shoes are easy to clean as they are made of smooth non-dirt leather."
     },
     {
       "id": 13,
@@ -163,11 +163,11 @@
       "price": 3999,
       "category": "sneakers",
       "images": ["J9 Cool Grey.jpg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
-      "colors": [ "White", "Grey"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
+      "colors": ["White", "Grey"],
       "inStock": true,
       "featured": true,
-      "description": "Durable non-slip soles for optimal traction during activities. Lightweight and breathable design for all-day comfort,Cushioned insoles and padded collar for enhanced support,Stylish color combination for a trendy look"
+      "description": "Durable non-slip soles for optimal traction during activities. Lightweight and breathable design for all-day comfort. Cushioned insoles and padded collar for enhanced support. Stylish color combination for a trendy look."
     },
     {
       "id": 14,
@@ -176,11 +176,11 @@
       "price": 3899,
       "category": "sneakers",
       "images": ["Air Force Wolfe.jpg"],
-      "sizes": ["EUR 36","EUR 37","EUR 38","EUR 39","EUR 40","EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
-      "colors": ["Black","Grey"],
+      "sizes": ["EUR 36", "EUR 37", "EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
+      "colors": ["Black", "Grey"],
       "inStock": true,
       "featured": true,
-      "description": "Perfect for all seasons,They are very stylish, Comfortable and durable "
+      "description": "Perfect for all seasons. They are very stylish, comfortable and durable."
     },
     {
       "id": 15,
@@ -189,11 +189,11 @@
       "price": 3799,
       "category": "sneakers",
       "images": ["Tiffany.jpg"],
-      "sizes": ["EUR 38","EUR 39","EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Black", "Blue"],
       "inStock": true,
       "featured": true,
-      "description": "Airforce 1 is made of high quality leather and natural  rubber .The shoes have a spongy lining  and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions . Their sole is well designedto give the shoes both a classic look and also ensure maximum grip even on slipperly surfaces. The shoes are easy to clean as they are made of smooth non dirt leather."
+      "description": "Airforce 1 is made of high quality leather and natural rubber. The shoes have a spongy lining and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions. Their sole is well designed to give the shoes both a classic look and also ensure maximum grip even on slippery surfaces. The shoes are easy to clean as they are made of smooth non-dirt leather."
     },
     {
       "id": 16,
@@ -202,11 +202,11 @@
       "price": 3999,
       "category": "sneakers",
       "images": ["Puma.jpeg"],
-      "sizes": ["EUR 39","EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Black", "White"],
       "inStock": true,
       "featured": true,
-      "description": "Perfect for all seasons,They are very stylish, Comfortable and durable "
+      "description": "Perfect for all seasons. They are very stylish, comfortable and durable."
     },
     {
       "id": 17,
@@ -215,11 +215,11 @@
       "price": 3999,
       "category": "sneakers",
       "images": ["AF1 Stussy.jpg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Brown"],
       "inStock": true,
       "featured": true,
-      "description": "Airforce 1 is made of high quality leather and natural  rubber .The shoes have a spongy lining  and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions . Their sole is well designedto give the shoes both a classic look and also ensure maximum grip even on slipperly surfaces. The shoes are easy to clean as they are made of smooth non dirt leather"
+      "description": "Airforce 1 is made of high quality leather and natural rubber. The shoes have a spongy lining and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions. Their sole is well designed to give the shoes both a classic look and also ensure maximum grip even on slippery surfaces. The shoes are easy to clean as they are made of smooth non-dirt leather."
     },
     {
       "id": 18,
@@ -228,11 +228,11 @@
       "price": 4199,
       "category": "sneakers",
       "images": ["AF1 Chrome Hearts.jpg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Black", "White"],
       "inStock": true,
       "featured": true,
-      "description": "Airforce 1 is made of high quality leather and natural  rubber .The shoes have a spongy lining  and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions . Their sole is well designedto give the shoes both a classic look and also ensure maximum grip even on slipperly surfaces. The shoes are easy to clean as they are made of smooth non dirt leather"
+      "description": "Airforce 1 is made of high quality leather and natural rubber. The shoes have a spongy lining and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions. Their sole is well designed to give the shoes both a classic look and also ensure maximum grip even on slippery surfaces. The shoes are easy to clean as they are made of smooth non-dirt leather."
     },
     {
       "id": 19,
@@ -241,11 +241,11 @@
       "price": 3799,
       "category": "sneakers",
       "images": ["air max 90 .jpg"],
-      "sizes": ["EUR 36","EUR 37","EUR 38","EUR 39","EUR 40","EUR 41","EUR 42","EUR 43", "EUR 44"],
-      "colors": ["Black", "White", "Red","Green"],
+      "sizes": ["EUR 36", "EUR 37", "EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44"],
+      "colors": ["Black", "White", "Red", "Green"],
       "inStock": true,
       "featured": true,
-      "description": "Step up your sneaker game with the legendary Nike Air Max 90. Known for its bold design and unbeatable comfort, this sneaker blends retro style with modern performance"
+      "description": "Step up your sneaker game with the legendary Nike Air Max 90. Known for its bold design and unbeatable comfort, this sneaker blends retro style with modern performance."
     },
     {
       "id": 20,
@@ -254,8 +254,8 @@
       "price": 4399,
       "category": "sneakers",
       "images": ["brown air max 95.jpg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
-      "colors": ["Black","Brown"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
+      "colors": ["Black", "Brown"],
       "inStock": true,
       "featured": true,
       "description": "Step up your sneaker game with the legendary Nike Air Max 95. Known for its bold design and unbeatable comfort, this sneaker blends retro style with modern performance."
@@ -263,15 +263,15 @@
     {
       "id": 21,
       "name": "Cactus jack Jump Man",
-      "brand": "Cactus jack ",
+      "brand": "Cactus jack",
       "price": 4499,
       "category": "sneakers",
       "images": ["Cactus jack Jump Man.jpg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
-      "colors": ["Black","Brown"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
+      "colors": ["Black", "Brown"],
       "inStock": true,
       "featured": true,
-      "description": "Perfect for all seasons,They are very stylish, Comfortable and durable "
+      "description": "Perfect for all seasons. They are very stylish, comfortable and durable."
     },
     {
       "id": 22,
@@ -280,16 +280,16 @@
       "price": 3999,
       "category": "sneakers",
       "images": ["J3 pink.jpg"],
-      "sizes": ["EUR 36","EUR 37","EUR 38","EUR 39","EUR 40","EUR 41","EUR 42"],
-      "colors": ["Pink","White"],
+      "sizes": ["EUR 36", "EUR 37", "EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42"],
+      "colors": ["Pink", "White"],
       "inStock": true,
       "featured": true,
-      "description": "The Air Jordan 3 Pink, a beloved classic, combines style and performance. Its design pays homage to the original Air Jordan 3, known for its iconic elephant print overlays and visible Air cushioning. With a mix of premium materials like leather and suede, the Retro SE offers durability and luxury. The mid-top silhouette provides ankle support while allowing for freedom of movement. Whether you're hitting the court or the streets, the Air Jordan 3 Retro SE promises comfort, style, and a nod to basketball heritage"
+      "description": "The Air Jordan 3 Pink, a beloved classic, combines style and performance. Its design pays homage to the original Air Jordan 3, known for its iconic elephant print overlays and visible Air cushioning. With a mix of premium materials like leather and suede, the Retro SE offers durability and luxury. The mid-top silhouette provides ankle support while allowing for freedom of movement. Whether you're hitting the court or the streets, the Air Jordan 3 Retro SE promises comfort, style, and a nod to basketball heritage."
     },
     {
       "id": 23,
       "name": "New Balance 1000 Grey",
-      "brand": "New Balance ",
+      "brand": "New Balance",
       "price": 4399,
       "category": "sneakers",
       "images": ["New Balance 1000 Grey.jpeg"],
@@ -306,11 +306,11 @@
       "price": 3999,
       "category": "sneakers",
       "images": ["Stussy Black.jpg"],
-      "sizes": ["EUR 39","EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Black"],
       "inStock": true,
       "featured": true,
-      "description": "Airforce 1 is made of high quality leather and natural  rubber .The shoes have a spongy lining  and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions . Their sole is well designedto give the shoes both a classic look and also ensure maximum grip even on slipperly surfaces. The shoes are easy to clean as they are made of smooth non dirt leather"
+      "description": "Airforce 1 is made of high quality leather and natural rubber. The shoes have a spongy lining and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions. Their sole is well designed to give the shoes both a classic look and also ensure maximum grip even on slippery surfaces. The shoes are easy to clean as they are made of smooth non-dirt leather."
     },
     {
       "id": 25,
@@ -319,7 +319,7 @@
       "price": 4399,
       "category": "sneakers",
       "images": ["New balance 2000.jpg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Black", "Grey"],
       "inStock": true,
       "featured": true,
@@ -332,24 +332,24 @@
       "price": 4999,
       "category": "sneakers",
       "images": ["Timber Land official.jpg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Brown"],
       "inStock": true,
       "featured": true,
-      "description": "Light and comfortable shoes perfect for any adventure , hand made and excellent finishing gurantees maximum finishing ,Whether it's on a rainy or sunny season the shoes can be worn on any weather condition.They're are versatile as they can be on almost any occasion. Be it a formal occasion,weddings,weekend look ,they are perfect as they can go with suits,jeans trousers,Khaki trousers and chinos.Get that classy,sophisticated & trendy look for less amount by purchasing this official shoes."
+      "description": "Light and comfortable shoes perfect for any adventure, hand made and excellent finishing guarantees maximum finishing. Whether it's on a rainy or sunny season the shoes can be worn on any weather condition. They're versatile as they can be on almost any occasion. Be it a formal occasion, weddings, weekend look, they are perfect as they can go with suits, jeans trousers, Khaki trousers and chinos. Get that classy, sophisticated & trendy look for less amount by purchasing this official shoes."
     },
     {
       "id": 27,
-      "name": "shocks  Thermo reactive",
+      "name": "shocks Thermo reactive",
       "brand": "Nike",
       "price": 4399,
       "category": "sneakers",
       "images": ["shocks  Thermo reactive.jpeg"],
-      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
+      "sizes": ["EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
       "colors": ["Black", "Green"],
       "inStock": true,
       "featured": true,
-      "description": "Step up your sneaker game with the legendary Nike Air Max 95. Known for its bold design and unbeatable comfort, this sneaker blends retro style with modern performance"
+      "description": "Step up your sneaker game with the legendary Nike Air Max 95. Known for its bold design and unbeatable comfort, this sneaker blends retro style with modern performance."
     },
     {
       "id": 28,
@@ -358,11 +358,11 @@
       "price": 3999,
       "category": "sneakers",
       "images": ["air force paris.jpg"],
-      "sizes": ["EUR 38","EUR 39","EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44","EUR 45"],
-      "colors": ["Blue","White"],
+      "sizes": ["EUR 38", "EUR 39", "EUR 40", "EUR 41", "EUR 42", "EUR 43", "EUR 44", "EUR 45"],
+      "colors": ["Blue", "White"],
       "inStock": true,
       "featured": true,
-      "description": "Airforce 1 is made of high quality leather and natural  rubber .The shoes have a spongy lining  and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions . Their sole is well designedto give the shoes both a classic look and also ensure maximum grip even on slipperly surfaces. The shoes are easy to clean as they are made of smooth non dirt leather"
+      "description": "Airforce 1 is made of high quality leather and natural rubber. The shoes have a spongy lining and a cotton innersole on the inside which ensures maximum comfort and freshness even in all weather conditions. Their sole is well designed to give the shoes both a classic look and also ensure maximum grip even on slippery surfaces. The shoes are easy to clean as they are made of smooth non-dirt leather."
     },
     {
       "id": 29,
@@ -380,23 +380,26 @@
     {
       "id": 30,
       "name": "Cactus jack tee",
-      "brand": "Cactus jack ",
+      "brand": "Cactus jack",
       "price": 1700,
       "category": "clothing",
       "images": ["Cactus jack tee.jpeg"],
-      "sizes": ["M","L","xl","XXL"],
+      "sizes": ["M", "L", "XL", "XXL"],
       "colors": ["cream"],
       "inStock": true,
       "featured": true,
-      "description": "Cotton"
-    },
-    {
-      "id": 2,
-      "name": "Palmer Drips",
-      "location": "Nairobi CBD,Ronald ngala street ,Royal Palms Mall, Shop BM39",
-      "contact": "+254 757 809 378",
-      "email": "palmerdrips@gmail.com"
+      "description": "Premium cotton t-shirt with unique Cactus jack design. Comfortable fit and high-quality print that lasts."
     }
-  ]
-  
+  ],
+  "shopInfo": {
+    "name": "Palmer Drips",
+    "location": "Nairobi CBD, Ronald Ngala Street, Royal Palms Mall, Shop BM39",
+    "contact": "+254 757 809 378",
+    "email": "palmerdrips@gmail.com",
+    "businessHours": {
+      "weekdays": "7:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "closed"
+    }
+  }
 }
